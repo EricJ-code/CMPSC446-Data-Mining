@@ -131,19 +131,19 @@ Lecture 2
 ---
 # Chapter 2: Getting to Know Your Data
 
-### Attributes
+## Attributes
 - Attribute ( or dimensions, features, variables): a data field, representing a characteristic or feature of a data object.
 	- E.g., customer_ID, name, address
-### Attribute Types
+## Attribute Types
 - Nominal
 - Binary
 - Ordinal
-### Measuring the Central Tendency
+## Measuring the Central Tendency
 - Mean
 - Median
 - Mode
 
-### Discrete vs. Continuous Attribute
+## Discrete vs. Continuous Attribute
 - Discrete Attribute
 	- Has only a finite or countably infinite set of values
 		- E.g., zip codes, profession, or the set of words in a collection of documents
@@ -154,10 +154,10 @@ Lecture 2
 		- E.g., temperature, height, or weight
 	- Practically, real values can only be measured and represented using a finite number of digits
 	- Continuous attributes are typically represented as floating-point variables
-### Quantile Plot
+## Quantile Plot
 - Displays all of the data (allowing the user to access both the overall behavior and unusual occurrences)
 - Plots **quantile** information
-### Similarity and Dissimilarity
+## Similarity and Dissimilarity
 - Similarity
 	- Numerical measure of how alike two data objects are
 	- Value is higher when objects are more alike
