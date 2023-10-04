@@ -1,7 +1,7 @@
 
 ___
 
-### Chapter 1: Introduction
+# Chapter 1: Introduction
 
 ---
 
@@ -10,7 +10,7 @@ Lecture 1
 
 ---
 
-#### Why Data Mining?
+## Why Data Mining?
 - The Explosive Growth of Data: from terabytes to petabytes
 	- Data collection and data availability  
 	- Automated data collection tools, database systems, Web, computerized society  
@@ -20,7 +20,7 @@ Lecture 1
 	- Society and everyone: news, digital cameras, YouTube  
 	- We are drowning in data, but starving for knowledge!  
 	- “Necessity is the mother of invention”—Data mining—Automated analysis of massive data sets
-##### Evolution of Sciences ([Historical Overview](https://youtu.be/aECk8s0FS7Q?si=AQ5hBxCLlzrToyBE))
+### Evolution of Sciences ([Historical Overview](https://youtu.be/aECk8s0FS7Q?si=AQ5hBxCLlzrToyBE))
 - Before 1600, empirical science  
 - 1600-1950s, theoretical science  
 	- Each discipline has grown a theoretical component. Theoretical models often motivate experiments and generalize our understanding.  
@@ -32,7 +32,7 @@ Lecture 1
 	- The ability to economically store and manage petabytes of data online  
 	- The Internet and computing Grid that makes all these archives universally accessible  
 	- Scientific info. management, acquisition, organization, query, and visualization tasks scale almost linearly with data volumes. Data mining is a major new challenge!
-##### Evolution of Database Technology( [A Brief History of Databases](https://youtu.be/PA3LtpwfFwQ?si=26z-iaeTrc1Tr-Mq))
+### Evolution of Database Technology( [A Brief History of Databases](https://youtu.be/PA3LtpwfFwQ?si=26z-iaeTrc1Tr-Mq))
 - 1960s:  
 	- Data collection
 	- Database creation
@@ -56,7 +56,7 @@ Lecture 1
 	- Data mining and its applications  
 	- Web technology (XML, data integration) 
 	- Global information systems
-#### What is Data Mining?
+## What is Data Mining?
 - Data mining (knowledge discovery from data)
 	- Extraction of interesting patterns of knowledge from huge amounts of data
 	- Non-trivial, actionable, and new information
@@ -68,7 +68,7 @@ Lecture 1
 	- Data dredging
 	- Information harvesting
 	- Business intelligence
-##### Knowledge Discovery (KDD) Process
+### Knowledge Discovery (KDD) Process
 - Used in database systems and data warehousing.
 - Data mining plays an essential role in this process.
 ---
@@ -77,7 +77,7 @@ Lecture 2
 **8-24-2023**
 
 ---
-##### Multi-Dimensional View of Data Mining
+### Multi-Dimensional View of Data Mining
 - Data to be mined
 	- Database data, data warehouse, transactional data, stream, spatiotemporal, time-series, sequence, text and web, multi-media, graphs & social and informational networks.
 	- Database data includes : extended- relational, object-oriented, heterogeneous, legacy
@@ -92,7 +92,7 @@ Lecture 2
 	- Telecom
 	- Banking
 	- Fraud analysis
-##### Data Mining Function: (3) Classification
+### Data Mining Function: (3) Classification
 - Classification and label prediction
 	- Construct models (functions) based on some training examples
 		- Describe and distinguish classes or concepts for future prediction
@@ -104,12 +104,12 @@ Lecture 2
 		- Credit card fraud detection, direct marketing, classifying stars, diseases, web-pages, ...
 	- Examples:
 		- N/A
-##### Data Mining Function: (4) Cluster Analysis
+### Data Mining Function: (4) Cluster Analysis
 - Unsupervised learning (i.e., Class label is unknown)
 - Group data to form new categories (i.e., clusters), e.g., cluster houses to find distribution patterns
 - Principle: Maximizing intra-class similarity & minimizing interclass similarity
 - Many methods and applications
-##### Evaluation of Knowledge
+### Evaluation of Knowledge
 - Are all mined knowledge interesting?
 	- One can mine tremendous amount of "patterns" and knowledge
 	- Some may fit only certain dimension space (time, location, …)
@@ -121,7 +121,7 @@ Lecture 2
 	- Accuracy
 	- Timeliness
 	- …
-##### Applications of Data Mining
+### Applications of Data Mining
 - Web page analysis: from web page classification, clustering to PageRank & HITS algorithms
 - Collaborative analysis & recommender systems 
 - Basket data analysis to targeted marketing
@@ -129,21 +129,21 @@ Lecture 2
 - Data mining and software engineering
 - Major dedicated data mining systems/tools (e.g., SAS, MS SQL- Server Analysis Manager, Oracle Data Mining Tools) to invisible data mining
 ---
-### Chapter 2
+# Chapter 2
 
-##### Attributes
+### Attributes
 - Attribute ( or dimensions, features, variables): a data field, representing a characteristic or feature of a data object.
 	- E.g., customer_ID, name, address
-##### Attribute Types
+### Attribute Types
 - Nominal
 - Binary
 - Ordinal
-##### Measuring the Central Tendency
+### Measuring the Central Tendency
 - Mean
 - Median
 - Mode
 
-##### Discrete vs. Continuous Attribute
+### Discrete vs. Continuous Attribute
 - Discrete Attribute
 	- Has only a finite or countably infinite set of values
 		- E.g., zip codes, profession, or the set of words in a collection of documents
@@ -154,10 +154,10 @@ Lecture 2
 		- E.g., temperature, height, or weight
 	- Practically, real values can only be measured and represented using a finite number of digits
 	- Continuous attributes are typically represented as floating-point variables
-##### Quantile Plot
+### Quantile Plot
 - Displays all of the data (allowing the user to access both the overall behavior and unusual occurrences)
 - Plots **quantile** information
-##### Similarity and Dissimilarity
+### Similarity and Dissimilarity
 - Similarity
 	- Numerical measure of how alike two data objects are
 	- Value is higher when objects are more alike
@@ -168,4 +168,3 @@ Lecture 2
 	- Minimum dissimilarity is often 0
 	- Upper limit varies
 - Proximity refers to similarity and dissimilarity
-- 
