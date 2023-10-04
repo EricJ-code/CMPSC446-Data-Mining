@@ -68,7 +68,7 @@ Lecture 1
 	- Data dredging
 	- Information harvesting
 	- Business intelligence
-### Knowledge Discovery (KDD) Process
+### [Knowledge Discovery (KDD) Process](https://youtu.be/0PDq4wYZqP0?si=tfHw2cbs3VXutFoz)
 - Used in database systems and data warehousing.
 - Data mining plays an essential role in this process.
 ---
@@ -129,7 +129,7 @@ Lecture 2
 - Data mining and software engineering
 - Major dedicated data mining systems/tools (e.g., SAS, MS SQL- Server Analysis Manager, Oracle Data Mining Tools) to invisible data mining
 ---
-# Chapter 2
+# Chapter 2: Getting to Know Your Data
 
 ### Attributes
 - Attribute ( or dimensions, features, variables): a data field, representing a characteristic or feature of a data object.
